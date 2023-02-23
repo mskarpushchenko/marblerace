@@ -1,4 +1,4 @@
-import FailEffect from './FailEffect'
+import FailEffect from '../../shaders/failEffect/FailEffect'
 import { forwardRef } from 'react'
 
 export default forwardRef(function(props, ref)

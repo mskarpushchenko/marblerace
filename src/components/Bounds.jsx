@@ -17,7 +17,7 @@ function Bounds( { length = 1} ){
                 scale = { [ 0.3, 1.5, 4 * length ] }
                 castShadow
             >
-                   <Hyperlapse />
+                   <Hyperlapse direction = { -1 } />
             </mesh>
             <mesh 
                 position = { [ -2.15, 0.75, - ( length * 2 ) + 2 ] }
@@ -26,7 +26,7 @@ function Bounds( { length = 1} ){
                 receiveShadow
                 
             >
-                 <Hyperlapse />
+                 <Hyperlapse  direction = { 1 } />
             </mesh>
             <mesh 
                 position = { [ 0, 0.75, - ( length * 4 ) + 2 ] }
